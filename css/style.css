@@ -182,11 +182,13 @@ color: #2196F3;
 
 .mail-icon{
     margin-right: 10px;
-    fill: currentColor;
+    fill: #757575;
+    
 }
 .tel-icon {
     margin-right: 10px;
     fill: currentColor;
+
 }
 
 
@@ -195,11 +197,12 @@ color: #2196F3;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
-.header-icon .mail:hover .mail-icon,
-.header-icon .mail:focus .mail-icon {
-    fill: currentColor;
+.mail:hover .mail-icon,
+.mail:focus .mail-icon {
+    fill: #2196F3;
 }
 
 .tel{
@@ -312,6 +315,19 @@ padding: 0 15px;
 
 }
 
+.qualites-icon-warning{
+    margin: 0 auto;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.icon-warning{
+    margin: 25px 100px;
+}
+
+
 .qualites-title{
     font-family:inherit;
     font-weight: 700;
@@ -415,15 +431,105 @@ padding: 0 15px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-bottom: 16px;
     }
 
     .card{
+        width: 270px;
         padding: 30px 56px 30px 56px;
         background: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
     }
+
+        .card-soc-link {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+        }
     
+        .card-soc-item {}
+
+    .card-soc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        background-color: #FFFFFF;
+        border-radius: 50%;
+    }
+    
+    .card-soc-icon{
+        fill: #AFB1B8;
+    }
+
+    .card-soc:hover,
+    .card-soc :focus{
+    background-color:  #2196F3;}
+    
+        .card-soc:hover .card-soc-icon,
+        .card-soc :focus .card-soc-icon{
+            fill: #FFFFFF;
+        }
+
+
+
+    
+/* ------------------Klients-------------- */
+
+.klients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.klients-title{
+    
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+        margin-bottom: 50px;
+}
+
+.klients-list{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 15px;
+}
+.klients-item{
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+}
+.klients-item:hover,
+.klients-item:focus
+{
+    border: 1px solid #2196F3;
+}
+.klients-item:hover .klients-icon,
+.klients-item:focus .klients-icon
+{
+    fill: #2196F3;
+}
+
+.klients-link{
+        display: flex;
+        align-items: center;
+        justify-content: center;       
+}
+.klients-icon{
+    fill: #AFB1B8;
+    margin-top: 16px;
+}
+
+
 
 
 
