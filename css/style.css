@@ -272,7 +272,8 @@ padding: 0 15px;
     padding: 10px 32px 10px 32px; 
 }
 
-.button:hover{
+.button:hover,
+.button:focus{
     background: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -448,8 +449,7 @@ padding: 0 15px;
             gap: 10px;
 
         }
-    
-        .card-soc-item {}
+
 
     .card-soc{
         display: flex;
@@ -470,7 +470,7 @@ padding: 0 15px;
     background-color:  #2196F3;}
     
         .card-soc:hover .card-soc-icon,
-        .card-soc :focus .card-soc-icon{
+        .card-soc:focus .card-soc-icon{
             fill: #FFFFFF;
         }
 
@@ -546,6 +546,11 @@ padding: 0 15px;
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
+    align-items: baseline;
+}
+.footer-loc{
+    margin-right: 70px;
 }
 
 
@@ -565,6 +570,7 @@ margin-bottom: 20px;
 }
 .list-footer{
     margin-bottom: 9px;
+    width: 231px;
 }
 
 .footer-geo{
@@ -595,6 +601,47 @@ margin-bottom: 20px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     }
+
+    
+    .footer-icon{
+        display: inline-block;
+        
+    }
+    .footer-icon-item{
+        display: flex;
+        gap: 10px;
+    }
+    .footer-txt{
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+        
+            color: #FFFFFF;
+            margin-bottom: 20px;
+    }
+
+        .card-soc-footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            background: rgba(255, 255, 255, 0.1);;
+            border-radius: 50%;
+        }
+        .card-soc-footer:hover,
+        .card-soc-footer :focus {
+            background-color: #2196F3;
+        }
+
+        .card-soc-icon-footer {
+        fill: #FFFFFF;
+        }
+    
 
 
     
@@ -655,7 +702,9 @@ background: #F5F4FA;
     flex-wrap: wrap;
     gap: 30px;
 }
-
+.portfolio-content>li:hover{
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 
 .box-portfolio {
