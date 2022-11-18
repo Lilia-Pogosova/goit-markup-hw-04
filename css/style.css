@@ -174,7 +174,7 @@ font-family: inherit;
     align-items: center;
     
 }
-.mail:hover {
+.mail:hover{
 color: #2196F3;
 }
 
@@ -323,10 +323,11 @@ padding: 0 15px;
     background: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.icon-warning{
-    margin: 25px 100px;
-}
+
 
 
 .qualites-title{
@@ -437,7 +438,7 @@ padding: 0 15px;
 
     .card{
         width: 270px;
-        padding: 30px 56px 30px 56px;
+        padding: 30px;
         background: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
@@ -466,7 +467,7 @@ padding: 0 15px;
     }
 
     .card-soc:hover,
-    .card-soc :focus{
+    .card-soc:focus{
     background-color:  #2196F3;}
     
         .card-soc:hover .card-soc-icon,
@@ -502,20 +503,14 @@ padding: 0 15px;
     justify-content: center;
     gap: 15px;
 }
-.klients-item{
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    width: 170px;
-    height: 92px;
-    cursor: pointer;
-}
-.klients-item:hover,
-.klients-item:focus
+
+.klients-link:hover,
+.klients-link:focus
 {
     border: 1px solid #2196F3;
 }
-.klients-item:hover .klients-icon,
-.klients-item:focus .klients-icon
+.klients-link:hover .klients-icon,
+.klients-link:focus .klients-icon
 {
     fill: #2196F3;
 }
@@ -523,11 +518,16 @@ padding: 0 15px;
 .klients-link{
         display: flex;
         align-items: center;
-        justify-content: center;       
+        justify-content: center;
+        border: 1px solid #AFB1B8;
+            border-radius: 4px;
+            width: 170px;
+            height: 92px;
+            
 }
 .klients-icon{
     fill: #AFB1B8;
-    margin-top: 16px;
+    
 }
 
 
@@ -634,7 +634,7 @@ margin-bottom: 20px;
             border-radius: 50%;
         }
         .card-soc-footer:hover,
-        .card-soc-footer :focus {
+        .card-soc-footer:focus {
             background-color: #2196F3;
         }
 
@@ -689,6 +689,7 @@ background: #F5F4FA;
     background: #2196F3;
     color: #FFFFFF;
     border-radius: 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 
